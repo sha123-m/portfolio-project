@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shecodes foundation</title>
 
     <link 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
@@ -23,15 +23,49 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
         crossorigin="anonymous">
 </script>
+<script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
 
    
 
 </head>
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/sharon.jpg"
+              class="logo d-none d-md-block"
+              alt="Patricia Logo"
+            />
+            <img
+              src="images/sharon.jpg"
+              class="logo d-block d-md-none"
+              alt="Patricia Logo"
+            />
+          </a>
+          <ul>
+            <li>
+              <a href="/" title="Homepage"> Home</a>
+            </li>
+            <li class="active">
+              <a href="/about.html" title="About Sharon"> About</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Sharon's work"> Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Contact Sharon"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     <div class="content-container container">
         <div class="row">
         <div class="col-lg-6">
-            <div class="content-container">
+            <div class="content">
     <h1 class="mb-4 ">Hi I am Sharon Gacheri</h1>
     <h2 class="mb-4">Frontend developer,based in kenya</h2>
     <p class="mb-5"> I am passionate about creating visually appealing and user-friendly web interfaces.
@@ -45,6 +79,58 @@
         </div>
         </div>
         </div>
-        </div>
+       
+        <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+              <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+              </div>
+              <div>
+                <a
+                  href="/contact.html"
+                  class="btn btn-branding mt-3"
+                  title="Contact sharon"
+                >
+                  Contact me
+                </a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+              <a
+                href="mailto:sharon@gmail.com"
+                class="email-link"
+                title="Email Patricia"
+              >
+                sharon@gmail.com
+              </a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+              <a
+                href="https://www.github.com/sha123-m"
+                target="_blank"
+                title="GitHub Profile"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+             
+              <a
+                href="https://www.twitter.com/sharon"
+                target="_blank"
+                title="Twitter Profile"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <p class="text-center mt-5">
+              ✌️ This website was coded by Sharon Gacheri, and is
+              <a
+                href="https://github.com/sha123-m/portfolio-project"
+                target="_blank"
+              >
+                open-sourced
+              </a>
+            </p>
+          </footer>
 </body>
 </html>
